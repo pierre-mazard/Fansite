@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Discographie</title>
+    <meta name="description" content="Description de la page" >
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1.0">
+    
+    <link rel="stylesheet" href="../fansite.css">
+
+
+    
+</head>
+
+<body>
+    <!--Loader-->
+    <div class="loader"></div>
+     <!--Contenu de la page-->
+    <div class="content">
+        <header>
+            <nav>
+                <ul>
+                    <a href="../index.html">Accueil</a>
+                    <a href="../informations/informations.html">Informations</a>
+                    <a href="https://igorrr.com/">Site web</a>
+                    <a href="https://www.youtube.com/channel/UC_3P0PpZrIhXLtV8kwsaC9Q"><img class="logoréseau" src="../images/youtube_logo.jpg" alt="Youtube"></a>
+                    <a href="https://www.facebook.com/IgorrrBarrroque/"><img class="logoréseau" src="../images/facebook_logo.png" alt="Facebook"></a>
+                    <a href="https://www.instagram.com/igorrr_music/"><img class="logoréseau" src="../images/instagram-gif.gif" alt="Instagram"></a>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="logo-large2"><img class="disco" src="../images/discographie.gif" title="Musique" alt="Music"></div>
+        </main>
+        <ul class="discolist">
+            2006<br><a href="https://youtu.be/LeBfwLMgtU4"><img src="../images/Disco-poisson-soluble.jpg" tilte="Poisson Soluble 2006" alt="Poisson Soluble 2006"></a><br>
+            2008<br><a href="https://youtu.be/TNUzLdJaYWI"><img src="../images/Disco-moisissure-2008.jpg" title="Moisissure 2008" alt="Moisissure 2008"></a><br>
+            2010<br><a href="https://youtu.be/qBc__SBvtrY"><img src="../images/Disco-baroquecore-ep.jpg" title="BaroqueCore EP 2010" alt="BaroqueCore EP 2010"></a><br>
+            <a href="https://youtu.be/5PmUQU8Mk4o"><img src="../images/Disco-Nostril-2010.jpg" title="Nostril 2010" alt="Nostril 2010"></a><br>
+            2012<br><a href="https://youtu.be/C5ATuxUnKqc"><img src="../images/Disco-Hallelujah-2012.jpg" title="Halleluja 2012" alt="Halleluja 2012"></a><br>
+            2014<br><a href="https://youtu.be/psVN9s7CBLQ"><img src="../images/Disco-Maigre-2014.jpg" title="Maigre 2014" alt="Maigre 2014"></a><br>
+            2017<br><a href="https://youtu.be/UBakgOHKI-g"><img src="../images/Disco-Savage-Sinusoid-2017.jpg" title="Savage Sinusoid 2017" alt="Savage Sinusoid 2017"></a><br>
+            2020<br><a href="https://youtu.be/KNJ0B5uU1QQ"><img src="../images/Disco-spirituality-and-distortion-2020.jpg" title="Spirituality and Distortion 2020" alt="Spirituality and Distortion 2020"></a><br>
+    
+    </div>
+    <footer>
+        <p ><a class="pm" href="https://pierre-mazard.students-laplateforme.io/">Site créé par Pierre Mazard</a></p>
+    </footer>
+<!-- Script pour afficher le contenu après le chargement de la page -->
+<script>
+    // Sélectionner le loader et le contenu
+    var loader = document.querySelector(".loader");
+    var content = document.querySelector(".content");
+
+    // Ajouter un écouteur d'événement sur le chargement de la page
+    window.addEventListener("load", function() {
+      // Masquer le loader avec une transition
+    loader.style.transition = "opacity 1.25s";
+    loader.style.opacity = 0;
+      // Afficher le contenu avec un délai
+    setTimeout(function() {
+    content.style.display = "block";
+    }, 500);
+    });
+  </script>
+</body>
+</html>

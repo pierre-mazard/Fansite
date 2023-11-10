@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Accueil</title>
+    <meta name="description" content="Description de la page" >
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1.0">
+    
+    <link rel="stylesheet" href="../Fansite/fansite.css">
+
+
+    
+</head>
+
+<body>
+    <!--Loader-->
+    <div class="loader"></div>
+     <!--Contenu de la page-->
+    <div class="content">
+        <header>
+            <nav>
+                <ul>
+                    <a href="../Fansite/informations/informations.html">Informations</a>
+                    <a href="../Fansite/discographie/discographie.html">Discographie</a>
+                    <a href="https://igorrr.com/">Site web</a>
+                    <a href="https://www.youtube.com/channel/UC_3P0PpZrIhXLtV8kwsaC9Q"><img class="logoréseau" src="../Fansite/images/youtube_logo.jpg" alt="Youtube"></a>
+                    <a href="https://www.facebook.com/IgorrrBarrroque/"><img class="logoréseau" src="../Fansite/images/facebook_logo.png" alt="Facebook"></a>
+                    <a href="https://www.instagram.com/igorrr_music/"><img class="logoréseau" src="../Fansite/images/instagram-gif.gif" alt="Instagram"></a>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <div class="audio-container">
+                <audio src="../Fansite/sons/IGORRR - DOWNGRADE  DESERT.mp3" preload="auto" controls=""></audio>
+                </div>
+                <h2><img src="../Fansite/images/igorrr-groupe.jpeg" alt="Igorrr"></h2>
+            </section>
+            <div class="logo-large"><img src="../Fansite/images/logo-large.png" title="Igorrr" alt="Igorrr"></div>
+        </main>
+        <ul>
+            <img src="../Fansite/images/accueilimg04.jpg" alt="img 04">
+            <img src="../Fansite/images/accueilimg01.jpg" alt="img 01">
+            <img src="../Fansite/images/accueilimg02.jpg" alt="img 02">
+            <ul><div class="accueilimg">
+        </ul>  
+        <ul><div class="accueilimg">  
+            <img src="../Fansite/images/accueilimg03.jpg" alt="img 03">
+            <img src="../Fansite/images/accueilimg05.jpg" alt="img 05">
+        </div></ul>
+        <footer>
+            <p ><a class="pm" href="https://pierre-mazard.students-laplateforme.io/">Site créé par Pierre Mazard</a></p>
+        </footer>
+    </div>
+    <!-- Script pour afficher le contenu après le chargement de la page -->
+    <script>
+    // Sélectionner le loader et le contenu
+    var loader = document.querySelector(".loader");
+    var content = document.querySelector(".content");
+
+    // Ajouter un écouteur d'événement sur le chargement de la page
+    window.addEventListener("load", function() {
+      // Masquer le loader avec une transition
+    loader.style.transition = "opacity 1.25s";
+    loader.style.opacity = 0;
+      // Afficher le contenu avec un délai
+    setTimeout(function() {
+    content.style.display = "block";
+    }, 500);
+    });
+  </script>
+</body>
+</html>

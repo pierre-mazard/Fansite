@@ -1,0 +1,145 @@
+/* 
+.loader{
+	background: url('../Fansite/images/logo-chargement.png') 50% 50% no-repeat rgba(255, 255, 255, 0.8);
+	cursor: wait;
+	height: 100%;
+	left: 0;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 9999;
+} */
+.content {
+    flex: auto;
+    cursor: url('../Fansite/images/cursor.png'), auto;
+    display: none; /* Masqué par défaut */
+    margin: 20px;
+    background-color: hsl(35, 43%, 68%);
+    color: rgba(155, 75, 25, 0.573);
+    font-family: CormorantGaramond,serif;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: -.02em;
+    color: #181515;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo-large {
+    flex: auto;
+    background-color: rgba(206, 203, 151, 0.5);
+    color: #fff0c2;
+    font-weight: bold;
+    font-size: 60px;
+    border: 8px solid #342e2e;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 270px;
+    padding: 50px;
+    text-align: center;
+}
+.logo-large2 {
+    flex: auto;
+    background-color: rgba(206, 203, 151, 0.5);
+    color: #fff0c2;
+    font-weight: bold;
+    font-size: 60px;
+    border: 8px solid #342e2e;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 270px;
+    padding: 50px;
+    text-align: center;
+}
+.disco{
+    flex: auto;
+    height: 300px;
+    width: 250px;
+}
+.accueilimg{
+    flex: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+footer{
+    flex: auto;
+    color: black;
+    text-align: center;
+    font-style: italic;
+    font-size:35%;
+}
+header{
+    flex: auto;
+    background-color: rgb(84, 70, 49);
+}
+a{
+    flex: auto;
+    color: #fff0c2;
+    font-size: 35%;
+}
+.pm{
+    color: rgb(76, 120, 106);
+    font-size: 20px;
+}
+a:hover, button:hover {
+    cursor : url('../Fansite/images/Cursor_selection.png'), auto;
+}
+@media screen and (min-width: 1200px) {
+    a{
+        margin: 5%;
+        color: #fff0c2;
+        font-size: 35%;
+    }
+    }
+    
+.logoréseau{
+    flex: auto;
+    height: 30px;
+    width: 30px;
+    animation: wiggle 1.5s infinite;
+    animation-delay: 1.3s;
+}
+@keyframes wiggle {
+    0% { transform: rotate(0deg); }
+    10% { transform: rotate(-10deg); }
+    20% { transform: rotate(10deg); }
+    30% { transform: rotate(-10deg); }
+    40% { transform: rotate(10deg); }
+    50% { transform: rotate(0deg); }
+    100% { transform: rotate(0deg); }
+}
+audio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}.audio-container {
+    background: rgb(74,62,30);
+    background: linear-gradient(270deg, rgba(74,62,30,1) 0%, rgba(221,186,112,1) 21%, rgba(248,211,121,1) 38%, rgba(248,235,180,1) 60%, rgba(73,64,36,1) 86%, rgba(70,55,5,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .texte {
+    color: #5e4747;
+    font-size: 25%;
+    text-align: left;
+    margin: 5%;
+
+  }
+  .liennom {
+    color: #6d6844;
+    font-size: 300%;
+
+  }

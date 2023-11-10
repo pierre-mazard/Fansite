@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Informations</title>
+    <meta name="description" content="Description de la page" >
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1.0">
+    
+    <link rel="stylesheet" href="../fansite.css">
+
+
+    
+</head>
+<body>
+    <!--Loader-->
+    <div class="loader"></div>
+     <!--Contenu de la page-->
+    <div class="content">
+        <header>
+            <nav>
+                <ul>
+                    <a href="../index.html">Accueil</a>
+                    <a href="../discographie/discographie.html">Discographie</a>
+                    <a href="https://igorrr.com/">Site web</a>
+                    <a href="https://www.youtube.com/channel/UC_3P0PpZrIhXLtV8kwsaC9Q"><img class="logoréseau" src="../images/youtube_logo.jpg" alt="Youtube"></a>
+                    <a href="https://www.facebook.com/IgorrrBarrroque/"><img class="logoréseau" src="../images/facebook_logo.png" alt="Facebook"></a>
+                    <a href="https://www.instagram.com/igorrr_music/"><img class="logoréseau" src="../images/instagram-gif.gif" alt="Instagram"></a>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <h2><img src="../images/Igorrr_portrait.jpg" alt="Igorrr"></h2>
+            </section>
+        </main>
+        <div class="texte">
+            <p> <a class="liennom" href="https://fr.wikipedia.org/wiki/Igorrr">Igorrr</a><br>De son vrai nom Gautier Serre, est un musicien compositeur producteur français mélangeant de nombreux genres musicaux, aussi disparates que le black metal, le death metal, la musique baroque, le breakcore, ou encore le trip hop pour en faire une œuvre unique.<br> Gautier Serre fait également partie du groupe Corpo-Mente et précédemment Whourkr.<br> Igorrr se produit sur scène sous forme d'un groupe composé de deux vocalistes, Marthe Alexandre et JB Le Bail, ainsi que du batteur Sylvain Bouvier et du guitariste Martyn Clément. </p>
+        </div>    
+        <footer>
+            <p ><a class="pm" href="https://pierre-mazard.students-laplateforme.io/">Site créé par Pierre Mazard</a></p>
+        </footer>
+    </div>
+    <!-- Script pour afficher le contenu après le chargement de la page -->
+    <script>
+    // Sélectionner le loader et le contenu
+    var loader = document.querySelector(".loader");
+    var content = document.querySelector(".content");
+
+    // Ajouter un écouteur d'événement sur le chargement de la page
+    window.addEventListener("load", function() {
+      // Masquer le loader avec une transition
+    loader.style.transition = "opacity 1.25s";
+    loader.style.opacity = 0;
+      // Afficher le contenu avec un délai
+    setTimeout(function() {
+    content.style.display = "block";
+    }, 500);
+    });
+  </script>
+        
+</body>
+</html>
